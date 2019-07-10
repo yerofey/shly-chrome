@@ -124,7 +124,6 @@
 .opacity (@opacity: 0) {
   @opacity100: @opacity * 100;
   filter:~"alpha(opacity=@{opacity100})";
-  -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=(@{opacity100}))";
   -webkit-opacity:  @opacity;
   -moz-opacity:     @opacity;
   opacity:          @opacity;

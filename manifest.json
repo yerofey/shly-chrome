@@ -11,13 +11,15 @@
     "default_icon": "/assets/img/app/icon-48x48.png",
     "default_popup": "popup.html"
   },
+
   "icons": {
-  	"16": "/assets/img/app/icon-16x16.png",
+    "16": "/assets/img/app/icon-16x16.png",
     "32": "/assets/img/app/icon-32x32.png",
-  	"48": "/assets/img/app/icon-48x48.png",
+    "48": "/assets/img/app/icon-48x48.png",
     "96": "/assets/img/app/icon-96x96.png",
-  	"128": "/assets/img/app/icon-128x128.png"
-	},
+    "128": "/assets/img/app/icon-128x128.png"
+  },
+
   "permissions": [
     "activeTab",
     "clipboardRead",
