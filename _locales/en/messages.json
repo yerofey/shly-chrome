@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "Easiest URL shortener"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shr.name - URL Shortener Service"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shr.name"
+	},
+	"extensionAdBadge": {
+		"message": "ad"
+	},
+	"extensionError": {
+		"message": "Error"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Shortening URL..."
+	}
+}

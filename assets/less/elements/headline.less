@@ -1,0 +1,82 @@
+@import '../common';
+
+
+h1 {
+  font-size: 60px;
+
+
+  @media @tablet {
+    font-size: 55px;
+  }
+
+  @media @mobile {
+    font-size: 45px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+
+  padding: 0;
+
+  color: @color-title;
+}
+
+h2 {
+  font-size: 35px;
+
+
+  @media @tablet {
+    font-size: 32px;
+  }
+
+  @media @mobile {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  &:not(.-lh) {
+    font-size: 25px;
+
+
+    @media @tablet {
+      font-size: 22px;
+    }
+
+    @media @mobile {
+      font-size: 20px;
+    }
+  }
+
+  &.-lh {
+    .font-size(25);
+
+
+    @media @tablet {
+      .font-size(22);
+    }
+
+    @media @mobile {
+      .font-size(20);
+    }
+  }
+}
+
+h4 {
+  font-size: 20px;
+
+
+  @media @tablet {
+    font-size: 18px;
+  }
+
+  @media @mobile {
+    font-size: 16px;
+  }
+}

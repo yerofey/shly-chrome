@@ -1,0 +1,43 @@
+@import '../common';
+
+
+.tooltip {
+  position: relative;
+  z-index: 1;
+
+  &:hover {
+    &:after {
+      background: rgba(0, 0, 0, .8);
+      border-radius: 2px;
+      bottom: 28px;
+      color: #fff;
+      content: attr(data-title);
+      display: inline-block;
+      font-size: 12px !important;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      left: -3px;
+      line-height: 25px !important;
+      padding: 0 8px !important;
+      position: absolute;
+      text-decoration: none;
+      text-transform: none;
+      vertical-align: top;
+      white-space: nowrap;
+      width: auto;
+      z-index: 100000;
+    }
+
+    &:before {
+      border: solid;
+      border-color: rgba(0, 0, 0, .8) transparent;
+      border-width: 5px 5px 0 5px;
+      bottom: 23px;
+      content: '';
+      display: inline-block;
+      left: 7px;
+      position: absolute;
+      z-index: 100001;
+    }
+  }
+}

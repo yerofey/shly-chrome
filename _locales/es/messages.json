@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "El servicio de reducción de enlaces más simple"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shr.name - servicio de reducción de enlaces"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shr.name"
+	},
+	"extensionAdBadge": {
+		"message": "publicidad"
+	},
+	"extensionError": {
+		"message": "Error"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Acortar la URL..."
+	}
+}

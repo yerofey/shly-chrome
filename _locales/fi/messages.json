@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "Yksinkertaisin linkin vähennyspalvelu"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shr.name - linkin vähennyspalvelu"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shr.name"
+	},
+	"extensionAdBadge": {
+		"message": "mainos"
+	},
+	"extensionError": {
+		"message": "virhe"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Lyhennä URL-osoitetta..."
+	}
+}

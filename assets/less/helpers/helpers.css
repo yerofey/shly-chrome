@@ -1,0 +1,104 @@
+/*
+@laptop_non-retina:     ~"(min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1)";
+@laptop_retina:         ~"(min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)";
+@phones_landscape:      ~"(min-width: 481px) and (max-width: 767px)";
+@phones_portrait:       ~"(max-width: 480px)";
+
+@computers:             ~"@{laptops}, @{desktops}";
+@desktops:              ~"(min-width: 1281px)";
+@laptops:               ~"(min-width: 1025px) and (max-width: 1280px)";
+@phones:                ~"@{phones_landscape}, @{phones_portrait}";
+@tablets:               ~"(min-width: 768px) and (max-width: 1024px)";*/
+/**
+.devices_values(width; 650px; 600px; 550px; 450px);
+ */
+._block {
+  display: block;
+}
+._center {
+  margin-left: auto;
+  margin-right: auto;
+}
+._hidden {
+  display: none;
+  filter: alpha(opacity=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(0));
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-pointer-events: none;
+  -ms-pointer-events: none;
+  pointer-events: none;
+  visibility: hidden;
+}
+._inline {
+  display: inline-block;
+  vertical-align: top;
+}
+._middle {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+._noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+._pull-left {
+  float: left;
+}
+._pull-right {
+  float: right;
+}
+._shown {
+  display: block;
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1;
+  -webkit-pointer-events: auto;
+  -ms-pointer-events: auto;
+  pointer-events: auto;
+  visibility: visible;
+}
+._scrollbar {
+  overflow-y: scroll;
+}
+.w-25 {
+  width: 25px;
+}
+.w-50 {
+  width: 50px;
+}
+.w-75 {
+  width: 75px;
+}
+.w-100 {
+  width: 100px;
+}
+.w-125 {
+  width: 125px;
+}
+.w-150 {
+  width: 150px;
+}
+.w-175 {
+  width: 175px;
+}
+.w-200 {
+  width: 200px;
+}
+.w-250 {
+  width: 250px;
+}
+.w-300 {
+  width: 300px;
+}
+/*# sourceMappingURL=helpers.css.map */

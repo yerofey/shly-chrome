@@ -1,0 +1,62 @@
+@import '../common';
+
+
+.select {
+  border: 1px solid @color-light;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  .-medium;
+  .-white;
+  .transition(border-color .3s);
+
+  // states
+  &:disabled {
+    cursor: not-allowed;
+    .opacity(.7);
+  }
+
+  // border
+  &:not(.-squared) {
+    .border-radius(3px);
+  }
+  &.-squared {
+    .border-radius(0);
+  }
+
+  // colors
+  &.-white {
+    background: #fff;
+    color: @color-text;
+
+    &:hover {
+      border-color: #ccc;
+    }
+
+    > option {
+      color: @color-text;
+    }
+  }
+
+  // sizes
+  &.-large {
+    font-size: 20px;
+    height: 60px;
+    padding: 0 16px;
+  }
+  &.-medium {
+    font-size: 16px;
+    height: 32px;
+    padding: 0 6px;
+  }
+  &.-small {
+    font-size: 14px;
+    height: 25px;
+    padding: 0 2px;
+  }
+
+  // other
+  &.-block {
+    display: block;
+  }
+}

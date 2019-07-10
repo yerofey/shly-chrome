@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "Lihtsaim lingi vähendamise teenus"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shr.name - linkide vähendamise teenus"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shr.name"
+	},
+	"extensionAdBadge": {
+		"message": "reklaami"
+	},
+	"extensionError": {
+		"message": "Viga"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Lühenda URL-i..."
+	}
+}
