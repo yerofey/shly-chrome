@@ -1,1 +1,4 @@
-/.idea/
+.idea
+.DS_STORE
+
+remove-ds-store-files.sh
