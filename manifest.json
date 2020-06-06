@@ -2,7 +2,7 @@
   "name": "__MSG_chromeWebstoreAppName__",
   "short_name": "__MSG_chromeWebstoreAppShortName__",
   "description": "__MSG_chromeWebstoreAppDescription__",
-  "version": "2.10.7",
+  "version": "0.1.0",
 
   "default_locale": "en",
   "manifest_version": 2,
@@ -11,7 +11,7 @@
     "activeTab",
     "clipboardRead",
     "clipboardWrite",
-    "https://shr.name/"
+    "https://shortly.pro/"
   ],
 
   "browser_action": {
