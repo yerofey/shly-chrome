@@ -3,10 +3,10 @@
 		"message": "Yksinkertaisin linkin vähennyspalvelu"
 	},
 	"chromeWebstoreAppName": {
-		"message": "shr.name - linkin vähennyspalvelu"
+		"message": "shortly.pro - linkin vähennyspalvelu"
 	},
 	"chromeWebstoreAppShortName": {
-		"message": "shr.name"
+		"message": "shortly.pro"
 	},
 	"extensionAdBadge": {
 		"message": "mainos"

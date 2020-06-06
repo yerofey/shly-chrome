@@ -3,10 +3,10 @@
 		"message": "Самый простой сервис сокращения ссылок"
 	},
 	"chromeWebstoreAppName": {
-		"message": "shr.name - сервис сокращения ссылок"
+		"message": "shortly.pro - сервис сокращения ссылок"
 	},
 	"chromeWebstoreAppShortName": {
-		"message": "shr.name"
+		"message": "shortly.pro"
 	},
 	"extensionAdBadge": {
 		"message": "реклама"
