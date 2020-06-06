@@ -1,4 +1,4 @@
-# shrname-chrome
-Chrome extension for URL Shortener Service - https://shr.name/
+# shortly-chrome
+Chrome extension for URL Shortener Service - https://shortly.pro/
 
-![shr.name chrome extension](https://i.imgur.com/oBYFG2z.png "shr.name chrome extension")
+![shortly.pro chrome extension](https://i.imgur.com/oBYFG2z.png "shortly.pro chrome extension")
