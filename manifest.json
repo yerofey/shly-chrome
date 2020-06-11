@@ -11,7 +11,8 @@
     "activeTab",
     "clipboardRead",
     "clipboardWrite",
-    "https://shortly.pro/"
+		"https://shortly.pro/",
+		"https://shly.link/"
   ],
 
   "browser_action": {
