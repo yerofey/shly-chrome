@@ -7,8 +7,7 @@ const el_error = $(".app .result .error"),
     el_form_input = $(".app .result .form .input"),
     el_loading = $(".app .result .loading"),
     el_qr_a = $(".app .result .qr-image a"),
-    el_qr_img = $(".app .result .qr-image img"),
-	shrname = "https://shortly.pro/";
+    el_qr_img = $(".app .result .qr-image img");
 
 const App = {
     init: function (d) {
@@ -27,7 +26,7 @@ const App = {
         let link = encodeURIComponent(d.url);
         if (link !== "https://shortly.pro/") {
             let b = new XMLHttpRequest();
-            b.open("GET", shrname + "_/api/?app=aAMHu&url=" + link, true);
+            b.open("GET", "https://shortly.pro/_/api/?app=aAMHu&url=" + link, true);
             b.onreadystatechange = function () {
                 if (b.readyState === 4) {
                     DOM.hide(el_error);
