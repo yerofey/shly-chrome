@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "El servicio de reducción de enlaces más simple"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shortly.is - servicio de reducción de enlaces"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shortly.is"
+	},
+	"extensionAdBadge": {
+		"message": "publicidad"
+	},
+	"extensionError": {
+		"message": "Error"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Acortar la URL..."
+	}
+}

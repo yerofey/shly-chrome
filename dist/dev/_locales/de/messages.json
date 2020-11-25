@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "Der einfachste Linkreduktionsdienst"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shortly.is - Linkreduktionsdienst"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shortly.is"
+	},
+	"extensionAdBadge": {
+		"message": "Werbung"
+	},
+	"extensionError": {
+		"message": "Fehler"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Shortening URL..."
+	}
+}

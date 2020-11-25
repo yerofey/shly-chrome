@@ -1,0 +1,20 @@
+{
+	"chromeWebstoreAppDescription": {
+		"message": "Самый простой сервис сокращения ссылок"
+	},
+	"chromeWebstoreAppName": {
+		"message": "shortly.is - сервис сокращения ссылок"
+	},
+	"chromeWebstoreAppShortName": {
+		"message": "shortly.is"
+	},
+	"extensionAdBadge": {
+		"message": "реклама"
+	},
+	"extensionError": {
+		"message": "Ошибка"
+	},
+	"extensionInputPlaceholder": {
+		"message": "Сокращаем URL..."
+	}
+}

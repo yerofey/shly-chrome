@@ -1,4 +1,4 @@
 # shortly-chrome
-Chrome extension for URL Shortener Service - https://shortly.pro/
+Chrome extension for URL Shortener Service - https://shortly.is/
 
-![shortly.pro chrome extension](https://i.imgur.com/oBYFG2z.png "shortly.pro chrome extension")
+![shortly.is chrome extension](https://i.imgur.com/oBYFG2z.png "shortly.is chrome extension")
