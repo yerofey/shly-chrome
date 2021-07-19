@@ -1,7 +1,6 @@
 // @ts-nocheck
 "use strict";
 
-
 const el_error = document.getElementById('error');
 const el_form = document.getElementById('form');
 const el_form_copy = document.getElementById('button');
@@ -13,6 +12,13 @@ const el_qr_img = document.getElementById('qr-img');
 
 const App = {
     init: function () {
+        // generate default QR
+        const qr = qrcode(0, 'M');
+        qr.addData('https://shortly.is/');
+        qr.make();
+        document.getElementById('qr-code').innerHTML = qr.createImgTag(3);
+
+        // init placeholder
         el_form_input.setAttribute('placeholder', App.langText("inputPlaceholder"));
     },
     inputCopyLink: function () {
@@ -36,20 +42,14 @@ const App = {
                     DOM.hide(el_form);
                     DOM.hide(el_loading);
 
-                    // el_qr_a.attr("href", el_qr_img.get("%default"));
-                    // el_qr_img.attr("src", el_qr_img.get("%default"));
-                    el_qr_a.setAttribute('href', el_qr_img.getAttribute('data-default'));
-                    el_qr_img.setAttribute('src', el_qr_img.getAttribute('data-default'));
-
                     let c = JSON.parse(b.responseText);
                     if (typeof c.error === "undefined") {
-                        // el_form_input.value(c.result_url);
-                        // el_qr_a.attr("href", c.qr_url);
-                        // el_qr_img.attr("src", c.qr_url);
-
                         el_form_input.value = c.result_url;
-                        el_qr_a.setAttribute('href', c.qr_url);
-                        el_qr_img.setAttribute('src', c.qr_url);
+
+                        const qr = qrcode(0, 'M');
+                        qr.addData(c.result_url);
+                        qr.make();
+                        document.getElementById('qr-code').innerHTML = qr.createImgTag(3);
 
                         DOM.show(el_form);
                         
@@ -68,14 +68,12 @@ const App = {
 
 const DOM = {
     hide: function (element) {
-        // d.removeClass("_shown").addClass("_hidden");
         if (element.classList.contains('_shown')) {
             element.classList.remove('_shown');
         }
         element.classList.add('_hidden');
     },
     show: function (element) {
-        // d.removeClass("_hidden").addClass("_shown");
         if (element.classList.contains('_hidden')) {
             element.classList.remove('_hidden');
         }
@@ -113,11 +111,4 @@ const Func = {
     el_form_input.addEventListener('focus', function() {
         App.inputSelectLink();
     });
-
-    // el_form_copy.on("click", function () {
-    //     App.inputCopyLink();
-    // });
-    // el_form_input.on("focus", function () {
-    //     App.inputSelectLink();
-    // });
 })();
