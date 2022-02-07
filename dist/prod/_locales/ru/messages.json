@@ -14,7 +14,13 @@
 	"extensionError": {
 		"message": "Ошибка"
 	},
+	"extensionErrorParseUrl": {
+		"message": "неверный формат ссылки"
+	},
 	"extensionInputPlaceholder": {
 		"message": "Сокращаем URL..."
+	},
+	"extensionLoading": {
+		"message": "Загрузка..."
 	}
 }

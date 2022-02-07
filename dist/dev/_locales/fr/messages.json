@@ -14,7 +14,13 @@
 	"extensionError": {
 		"message": "Erreur"
 	},
+	"extensionErrorParseUrl": {
+		"message": "Failed to parse URL"
+	},
 	"extensionInputPlaceholder": {
 		"message": "Raccourcir l'URL..."
+	},
+	"extensionLoading": {
+		"message": "Loading..."
 	}
 }

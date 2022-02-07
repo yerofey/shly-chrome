@@ -14,7 +14,13 @@
 	"extensionError": {
 		"message": "virhe"
 	},
+	"extensionErrorParseUrl": {
+		"message": "Failed to parse URL"
+	},
 	"extensionInputPlaceholder": {
 		"message": "Lyhennä URL-osoitetta..."
+	},
+	"extensionLoading": {
+		"message": "Loading..."
 	}
 }

@@ -14,7 +14,13 @@
 	"extensionError": {
 		"message": "Viga"
 	},
+	"extensionErrorParseUrl": {
+		"message": "Failed to parse URL"
+	},
 	"extensionInputPlaceholder": {
 		"message": "Lühenda URL-i..."
+	},
+	"extensionLoading": {
+		"message": "Loading..."
 	}
 }
