@@ -1,0 +1,26 @@
+{
+  "chromeWebstoreAppDescription": {
+    "message": "URL 간소화 확장 프로그램"
+  },
+  "chromeWebstoreAppName": {
+    "message": "shortly.is - URL 간소화 서비스"
+  },
+  "chromeWebstoreAppShortName": {
+    "message": "shortly.is"
+  },
+  "extensionAdBadge": {
+    "message": "광고"
+  },
+  "extensionError": {
+    "message": "오류"
+  },
+  "extensionErrorParseUrl": {
+    "message": "URL 불러오기를 실패했습니다."
+  },
+  "extensionInputPlaceholder": {
+    "message": "URL 간소화 중..."
+  },
+  "extensionLoading": {
+    "message": "로딩중..."
+  }
+}
