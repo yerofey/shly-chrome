@@ -1,5 +1,6 @@
 .idea
 .DS_STORE
+dist/_
 node_modules/
 remove-ds-store-files.sh
 
