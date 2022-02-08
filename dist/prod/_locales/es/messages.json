@@ -15,12 +15,12 @@
 		"message": "Error"
 	},
 	"extensionErrorParseUrl": {
-		"message": "Failed to parse URL"
+		"message": "No se pudo analizar la URL"
 	},
 	"extensionInputPlaceholder": {
 		"message": "Acortar la URL..."
 	},
 	"extensionLoading": {
-		"message": "Loading..."
+		"message": "Cargando..."
 	}
 }

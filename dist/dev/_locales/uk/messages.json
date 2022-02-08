@@ -15,12 +15,12 @@
 		"message": "Помилка"
 	},
 	"extensionErrorParseUrl": {
-		"message": "Failed to parse URL"
+		"message": "Не вдалося проаналізувати URL-адресу"
 	},
 	"extensionInputPlaceholder": {
 		"message": "Сскорочуємо URL..."
 	},
 	"extensionLoading": {
-		"message": "Loading..."
+		"message": "Завантаження..."
 	}
 }

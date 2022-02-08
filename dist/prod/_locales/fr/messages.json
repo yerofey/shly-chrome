@@ -15,7 +15,7 @@
 		"message": "Erreur"
 	},
 	"extensionErrorParseUrl": {
-		"message": "Failed to parse URL"
+		"message": "Échec de l'analyse de l'URL"
 	},
 	"extensionInputPlaceholder": {
 		"message": "Raccourcir l'URL..."

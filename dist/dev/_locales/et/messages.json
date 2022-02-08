@@ -15,12 +15,12 @@
 		"message": "Viga"
 	},
 	"extensionErrorParseUrl": {
-		"message": "Failed to parse URL"
+		"message": "URL-i sõelumine ebaõnnestus"
 	},
 	"extensionInputPlaceholder": {
 		"message": "Lühenda URL-i..."
 	},
 	"extensionLoading": {
-		"message": "Loading..."
+		"message": "Laadimine..."
 	}
 }

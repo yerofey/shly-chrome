@@ -15,12 +15,12 @@
 		"message": "virhe"
 	},
 	"extensionErrorParseUrl": {
-		"message": "Failed to parse URL"
+		"message": "URL-osoitteen jäsentäminen epäonnistui"
 	},
 	"extensionInputPlaceholder": {
 		"message": "Lyhennä URL-osoitetta..."
 	},
 	"extensionLoading": {
-		"message": "Loading..."
+		"message": "Ladataan..."
 	}
 }
