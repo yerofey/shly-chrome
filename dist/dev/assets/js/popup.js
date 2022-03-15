@@ -13,7 +13,7 @@ const App = {
   init: function () {
     // generate default QR
     const qr = qrcode(0, "Q");
-    qr.addData("https://shortly.is/");
+    qr.addData("https://shly.link/");
     qr.make();
     document.getElementById("qr-code").innerHTML = qr.createImgTag(4);
 
@@ -48,7 +48,7 @@ const App = {
     if (
       urlIsValid &&
       ["https:", "http:"].includes(urlObject.protocol) &&
-      !["shortly.is", "shly.link"].includes(urlObject.domain)
+      !["shly.link", "shly.link"].includes(urlObject.domain)
     ) {
       FingerprintJS.load().then((fp) => {
         fp.get().then((result) => {
@@ -57,7 +57,7 @@ const App = {
           const request = new XMLHttpRequest();
           request.open(
             "GET",
-            `https://shortly.is/_/api/?app=aAMHu&fp=${visitorId}&url=${link}`,
+            `https://shly.link/_/api/?app=aAMHu&fp=${visitorId}&url=${link}`,
             true
           );
           request.onreadystatechange = function () {

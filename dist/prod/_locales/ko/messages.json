@@ -3,10 +3,10 @@
     "message": "URL 간소화 확장 프로그램"
   },
   "chromeWebstoreAppName": {
-    "message": "shortly.is - URL 간소화 서비스"
+    "message": "shly.link - URL 간소화 서비스"
   },
   "chromeWebstoreAppShortName": {
-    "message": "shortly.is"
+    "message": "shly.link"
   },
   "extensionAdBadge": {
     "message": "광고"

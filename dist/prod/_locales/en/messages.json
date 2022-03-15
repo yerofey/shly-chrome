@@ -3,10 +3,10 @@
 		"message": "Easiest URL shortener"
 	},
 	"chromeWebstoreAppName": {
-		"message": "shortly.is - URL Shortener Service"
+		"message": "shly.link - URL Shortener Service"
 	},
 	"chromeWebstoreAppShortName": {
-		"message": "shortly.is"
+		"message": "shly.link"
 	},
 	"extensionAdBadge": {
 		"message": "ad"

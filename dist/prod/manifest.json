@@ -2,7 +2,7 @@
   "name": "__MSG_chromeWebstoreAppName__",
   "short_name": "__MSG_chromeWebstoreAppShortName__",
   "description": "__MSG_chromeWebstoreAppDescription__",
-  "version": "2.14.2",
+  "version": "2.15.0",
 
   "default_locale": "en",
   "manifest_version": 2,
@@ -10,7 +10,6 @@
   "permissions": [
     "activeTab",
     "clipboardWrite",
-    "https://shortly.is/",
 		"https://shly.link/"
   ],
 

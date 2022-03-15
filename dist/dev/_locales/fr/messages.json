@@ -3,10 +3,10 @@
 		"message": "Le service de réduction de liaison le plus simple"
 	},
 	"chromeWebstoreAppName": {
-		"message": "shortly.is - service de réduction de lien"
+		"message": "shly.link - service de réduction de lien"
 	},
 	"chromeWebstoreAppShortName": {
-		"message": "shortly.is"
+		"message": "shly.link"
 	},
 	"extensionAdBadge": {
 		"message": "réclame"
