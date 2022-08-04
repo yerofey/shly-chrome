@@ -50,45 +50,40 @@ const App = {
       ["https:", "http:"].includes(urlObject.protocol) &&
       !["shly.link", "shly.link"].includes(urlObject.domain)
     ) {
-      FingerprintJS.load().then((fp) => {
-        fp.get().then((result) => {
-          const visitorId = result.visitorId;
-          const link = encodeURIComponent(page.url);
-          const request = new XMLHttpRequest();
-          request.open(
-            "GET",
-            `https://shly.link/_/api/?app=aAMHu&fp=${visitorId}&url=${link}`,
-            true
-          );
-          request.onreadystatechange = function () {
-            if (request.readyState === 4) {
-              DOM.hide(el_error);
-              DOM.hide(el_form);
-              DOM.hide(el_loading);
+      const link = encodeURIComponent(page.url);
+      const request = new XMLHttpRequest();
+      request.open(
+        "GET",
+        `https://shly.link/_/api/?app=aAMHu&url=${link}`,
+        true
+      );
+      request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+          DOM.hide(el_error);
+          DOM.hide(el_form);
+          DOM.hide(el_loading);
 
-              const result = JSON.parse(request.responseText);
-              if (typeof result.error === "undefined") {
-                el_form_input.value = result.result_url;
+          const result = JSON.parse(request.responseText);
+          if (typeof result.error === "undefined") {
+            el_form_input.value = result.result_url;
 
-                const qr = qrcode(0, "Q");
-                qr.addData(result.result_url);
-                qr.make();
-                document.getElementById("qr-code").innerHTML =
-                  qr.createImgTag(4);
+            const qr = qrcode(0, "Q");
+            qr.addData(result.result_url);
+            qr.make();
+            document.getElementById("qr-code").innerHTML =
+              qr.createImgTag(4);
 
-                DOM.show(el_form);
+            DOM.show(el_form);
 
-                App.inputSelectLink();
-              } else {
-                DOM.hide(el_loading);
-                DOM.show(el_error);
-                el_error.innerHTML = App.langText("extensionError") + ": " + result.description;
-              }
-            }
-          };
-          request.send();
-        });
-      });
+            App.inputSelectLink();
+          } else {
+            DOM.hide(el_loading);
+            DOM.show(el_error);
+            el_error.innerHTML = App.langText("extensionError") + ": " + result.description;
+          }
+        }
+      };
+      request.send();
     } else {
       DOM.hide(el_loading);
       DOM.show(el_error);
@@ -128,12 +123,31 @@ const Func = {
   },
 };
 
-(function () {
+(async function () {
   App.init();
-
-  chrome.tabs.getSelected(null, function (currentPage) {
-    App.shorten(currentPage);
-  });
+	/*
+		active: true
+		audible: false
+		autoDiscardable: true
+		discarded: false
+		favIconUrl: "https://developer.chrome.com/images/meta/favicon-32x32.png"
+		groupId: -1
+		height: 721
+		highlighted: true
+		id: 216
+		incognito: false
+		index: 11
+		mutedInfo: {muted: false}
+		pinned: false
+		selected: true
+		status: "complete"
+		title: "Migrating to Manifest V3 - Chrome Developers"
+		url: "https://developer.chrome.com/docs/extensions/mv3/intro/mv3-migration/"
+		width: 1440
+		windowId: 18
+	*/
+	const activeTab = (await chrome.tabs.query({ active: true }))[0];
+	App.shorten(activeTab);
 
   el_form_copy.addEventListener("click", function () {
     App.inputCopyLink();

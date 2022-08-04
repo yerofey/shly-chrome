@@ -1,5 +1,6 @@
+.DS_Store
 .idea
-.DS_STORE
+.vscode
 dist/_
 node_modules/
 remove-ds-store-files.sh
