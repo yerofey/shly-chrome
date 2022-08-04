@@ -9,8 +9,7 @@
 
   "permissions": [
     "activeTab",
-    "clipboardWrite",
-		"scripting"
+    "clipboardWrite"
   ],
 	"host_permissions": [
     "https://shly.link/"
