@@ -2,7 +2,7 @@
   "name": "__MSG_chromeWebstoreAppName__",
   "short_name": "__MSG_chromeWebstoreAppShortName__",
   "description": "__MSG_chromeWebstoreAppDescription__",
-  "version": "2.17.0",
+  "version": "2.17.1",
 
   "default_locale": "en",
   "manifest_version": 3,
