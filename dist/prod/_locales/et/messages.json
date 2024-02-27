@@ -22,5 +22,8 @@
 	},
 	"extensionLoading": {
 		"message": "Laadimine..."
+	},
+	"extensionRateApp": {
+		"message": "Hinda rakendust"
 	}
 }

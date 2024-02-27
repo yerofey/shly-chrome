@@ -1,11 +1,3 @@
 .DS_Store
-.idea
 .vscode
 dist/_
-node_modules/
-remove-ds-store-files.sh
-
-# v3
-v3
-package.json
-yarn.lock

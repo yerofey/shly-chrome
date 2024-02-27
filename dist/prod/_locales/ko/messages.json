@@ -22,5 +22,8 @@
   },
   "extensionLoading": {
     "message": "로딩중..."
-  }
+  },
+	"extensionRateApp": {
+		"message": "평가하기"
+	}
 }

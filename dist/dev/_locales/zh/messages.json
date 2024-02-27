@@ -1,29 +1,29 @@
 {
 	"chromeWebstoreAppDescription": {
-		"message": "Lihtsaim lingi vähendamise teenus"
+		"message": "最简单的URL缩短器"
 	},
 	"chromeWebstoreAppName": {
-		"message": "shly.link - linkide vähendamise teenus"
+		"message": "shly.link - URL缩短服务"
 	},
 	"chromeWebstoreAppShortName": {
 		"message": "shly.link"
 	},
 	"extensionAdBadge": {
-		"message": "reklaami"
+		"message": "广告"
 	},
 	"extensionError": {
-		"message": "Viga"
+		"message": "错误"
 	},
 	"extensionErrorParseUrl": {
-		"message": "URL-i sõelumine ebaõnnestus"
+		"message": "解析URL失败"
 	},
 	"extensionInputPlaceholder": {
-		"message": "Lühenda URL-i..."
+		"message": "正在缩短URL..."
 	},
 	"extensionLoading": {
-		"message": "Laadimine..."
+		"message": "加载中..."
 	},
 	"extensionRateApp": {
-		"message": "Hinda rakendust"
+		"message": "评价该应用"
 	}
 }

@@ -22,5 +22,8 @@
 	},
 	"extensionLoading": {
 		"message": "Cargando..."
+	},
+	"extensionRateApp": {
+		"message": "Calificar la aplicación"
 	}
 }

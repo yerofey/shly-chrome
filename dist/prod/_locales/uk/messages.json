@@ -22,5 +22,8 @@
 	},
 	"extensionLoading": {
 		"message": "Завантаження..."
+	},
+	"extensionRateApp": {
+		"message": "Оцінити розширення"
 	}
 }

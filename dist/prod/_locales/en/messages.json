@@ -22,5 +22,8 @@
 	},
 	"extensionLoading": {
 		"message": "Loading..."
+	},
+	"extensionRateApp": {
+		"message": "Rate the app"
 	}
 }

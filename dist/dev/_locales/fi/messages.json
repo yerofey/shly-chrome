@@ -22,5 +22,8 @@
 	},
 	"extensionLoading": {
 		"message": "Ladataan..."
+	},
+	"extensionRateApp": {
+		"message": "Arvioi sovellus"
 	}
 }

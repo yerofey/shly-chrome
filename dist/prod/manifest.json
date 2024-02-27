@@ -2,11 +2,9 @@
   "name": "__MSG_chromeWebstoreAppName__",
   "short_name": "__MSG_chromeWebstoreAppShortName__",
   "description": "__MSG_chromeWebstoreAppDescription__",
-  "version": "2.17.1",
-
+  "version": "2.18.0",
   "default_locale": "en",
   "manifest_version": 3,
-
   "permissions": [
     "activeTab",
     "clipboardWrite"
@@ -14,7 +12,6 @@
 	"host_permissions": [
     "https://shly.link/"
   ],
-
   "action": {
     "default_icon": {
       "16": "assets/img/app/icon-16x16.png",
@@ -27,7 +24,6 @@
     },
     "default_popup": "popup.html"
   },
-
   "icons": {
     "16": "assets/img/app/icon-16x16.png",
     "19": "assets/img/app/icon-19x19.png",
@@ -37,6 +33,5 @@
     "96": "assets/img/app/icon-96x96.png",
     "128": "assets/img/app/icon-128x128.png"
   },
-
   "update_url": "https://clients2.google.com/service/update2/crx"
 }
